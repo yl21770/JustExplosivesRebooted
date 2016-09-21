@@ -1,0 +1,43 @@
+{
+  "objectName" : "jxr_detonator",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+  "breakDropOptions" : [],
+
+  "category" : "wire",
+  "price" : 0,
+
+   "description" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "shortdescription" : "Safety Detonator",
+  "race" : "generic",
+
+  "apexDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "avianDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "floranDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "glitchDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "humanDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "hylotlDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+
+  "inventoryIcon" : "jxr_detonatoricon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_detonator.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/jxr_detonator.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_detonator.animation",
+  "animationParts" : {
+    "switch" : "jxr_detonator.png"
+  },
+  "animationPosition" : [3, 7],
+
+  "interactive" : true
+}
