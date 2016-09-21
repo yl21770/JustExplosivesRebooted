@@ -1,0 +1,9 @@
+{
+    "name" : "justexplosivesrebooted",
+    "friendlyName" : "Just Explosives Rebooted",
+    "dependencies" : [],
+    "version" : "1.1",
+    "modversion" : "v0.3",
+    "author" : "Djinn, Jdeax(ported to 1.1)",
+    "description" : "Just Explosives, now compatible with Starbound version 1.1! Make everything explode!"
+}

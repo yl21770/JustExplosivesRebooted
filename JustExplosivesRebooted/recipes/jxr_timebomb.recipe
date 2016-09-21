@@ -1,0 +1,7 @@
+{
+    //Adjust price for each item
+    "input": [],
+    "output": { "item": "jxr_timebomb",
+    "count": 1 },
+    "groups": [ "frogbombmerchant", "objects", "all" ]
+}

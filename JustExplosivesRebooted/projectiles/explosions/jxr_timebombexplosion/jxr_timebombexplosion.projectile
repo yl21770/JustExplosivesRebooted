@@ -1,0 +1,27 @@
+{
+  "projectileName" : "jxr_timebombexplosion",
+  "image" : "jxr_timebombexplosion.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 12,
+  "speed" : 30,
+
+  "lightColor" : [255, 186, 0],
+  "pointLight" : false,
+
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+
+  "damageKind" : "default",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "statusEffects" : [],
+  "damagePoly" : [[-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24]],
+  "knockback" : 30,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/jxr_timebombexplosion/jxr_timebombexplosion.config"
+    }
+  ]
+}
