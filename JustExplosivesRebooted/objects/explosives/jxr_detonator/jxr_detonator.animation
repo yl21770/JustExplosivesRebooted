@@ -9,8 +9,8 @@
           },
           "on" : {
             "frames" : 4,
-			"cycle" : 0.2,
-			"mode" : "loop"
+		        "cycle" : 0.2,
+			      "mode" : "loop"
           }
         }
       }

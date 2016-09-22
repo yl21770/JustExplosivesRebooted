@@ -3,8 +3,7 @@ function init()
     storage.state = false
   end
 
-  self.interactive = config.getParameter("interactive", true)
-  object.setInteractive(self.interactive)
+  object.setInteractive(config.getParameter("interactive" or true))
 
   if config.getParameter("inputNodes") then
     processWireInput()
@@ -26,7 +25,7 @@ function onInputNodeChange(args)
   processWireInput()
 end
 
-function onInteraction(args)
+function onInteraction()
 --Manual activation
   if not config.getParameter("inputNodes") or not object.isInputNodeConnected(0) then
     storage.state = not storage.state
@@ -69,10 +68,7 @@ function update(dt)
       if self.timer > 0 then
         --Trigger explosion
         if self.timer <= 1 then
-          --Check if projectile specified in .object file is present
-          if config.getParameter("firstProjectile") ~= nil then
-            world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({ 0.2, 1 }), entity.id())
-          end
+          die()
           --Destroy object
           object.smash()
         end

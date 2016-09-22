@@ -1,0 +1,26 @@
+{
+  "projectileName" : "jxr_detonatorexplosion",
+  "image" : "jxr_detonatorexplosion.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "speed" : 10,
+
+  "lightColor" : [255, 227, 48],
+  "pointLight" : false,
+
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+
+  "damageKind" : "default",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "statusEffects" : [],
+  "damagePoly" : [[-12, 0], [-10, -10], [0, -12], [10, -10], [12, 0], [10, 10], [0, 12], [-10, 10]],
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/jxr_detonatorexplosion/jxr_detonatorexplosion.config"
+    }
+  ]
+}

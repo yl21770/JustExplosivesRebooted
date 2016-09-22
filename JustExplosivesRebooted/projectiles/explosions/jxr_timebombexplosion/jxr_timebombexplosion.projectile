@@ -3,9 +3,9 @@
   "image" : "jxr_timebombexplosion.png",
   "animationCycle" : 0.25,
   "frameNumber" : 12,
-  "speed" : 30,
+  "speed" : 60,
 
-  "lightColor" : [255, 186, 0],
+  "lightColor" : [255, 227, 48],
   "pointLight" : false,
 
   "animationLoops" : false,
