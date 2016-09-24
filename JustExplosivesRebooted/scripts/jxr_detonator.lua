@@ -31,7 +31,6 @@ function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
     self.triggerTimer = config.getParameter("detectDuration")
-    sb.logInfo("Detonator triggered!")
   end
 end
 
