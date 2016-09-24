@@ -38,7 +38,6 @@ function entitiesInRange()
 --Check if players are nearby
   local count = 0
 
-  sb.logInfo("Player in range")
   local playerIDs = world.playerQuery(self.pos, self.detectRange)
   count = count + #playerIDs
 
@@ -51,11 +50,10 @@ function update(dt)
     if self.timer > 0 then
       self.timer = self.timer - dt
     else
-      sb.logInfo("Timer: " .. self.timer)
       local playersFound = entitiesInRange()
-      object.setAllOutputNodes(playersFound)
       --Detonate only when there are no nearby players
       if not playersFound then
+        object.setAllOutputNodes(true)
         die()
         --Destroy object
         object.smash()
