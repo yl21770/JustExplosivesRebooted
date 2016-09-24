@@ -74,7 +74,7 @@ function update(dt)
         end
       end
     --Update Timer
-    self.timer = math.max(0, self.timer - dt)
+    self.timer = self.timer - dt
     end
   end
 end
@@ -82,6 +82,6 @@ end
 function die()
 --Triggers other nearby explosives upon explosion
   if config.getParameter("firstProjectile") ~= nil then
-    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({ 0.2, 1 }), entity.id())
+    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
   end
 end

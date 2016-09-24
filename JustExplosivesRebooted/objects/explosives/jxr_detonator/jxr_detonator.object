@@ -45,7 +45,7 @@
 
   "detectDuration" : 3,
   "detectEntityTypes" : ["creature"],
-  "detectArea" : [[5, 5], 10],
+  "detectRange" : 10,
 
   "interactive" : true
 }
