@@ -3,5 +3,5 @@
     "input": [],
     "output": { "item": "jxr_timebomb",
     "count": 1 },
-    "groups": [ "frogbombmerchant", "objects", "all" ]
+    "groups": [ "bombcraftingtable", "objects", "all" ]
 }
