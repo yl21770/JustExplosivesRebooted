@@ -1,16 +1,17 @@
 {
-  "objectName" : "jxr_frogbombmerchant",
-  "rarity" : "Common",
+  "objectName" : "jxr_bombcraftingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/jxr_frogbombmerchant.config",
-    "filter" : [ "frogbombmerchant" ]
+    "config" : "/interface/windowconfig/jxr_bombcraftingtable.config",
+    "filter" : ["bombcraftingtable"]
   },
-  "description" : "A frog merchant. What it really is, or what it wants, nobody knows.",
-  "shortdescription" : "Frog Bomb Merchant",
+  "description" : "A bomb crafting table. I wonder what will happen if I press this butto...",
+  "shortdescription" : "Bomb Crafting Table",
   "race" : "generic",
   "category" : "crafting",
-  "printable" : true,
+  "printable" : false,
   "price" : 0,
   
   "apexDescription" : "A silent frog merchant. Unusual.",
@@ -20,19 +21,17 @@
   "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
   "hylotlDescription" : "This silent creature is not one of us.",
 
-  "inventoryIcon" : "jxr_frogbombmerchanticon.png",
+  "inventoryIcon" : "jxr_bombcraftingtableicon.png",
   "orientations" : [
     {
-      "dualImage" : "jxr_frogbombmerchant.png:<color>.<frame>",
+      "dualImage" : "jxr_bombcraftingtable.png:<color>",
 
-      "imagePosition" : [-20, 0],
-      "frames" : 11,
-      "animationCycle" : 2.5,
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
-
     }
   ]
 }
