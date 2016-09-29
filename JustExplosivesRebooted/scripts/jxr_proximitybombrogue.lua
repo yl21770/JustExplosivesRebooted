@@ -10,7 +10,6 @@ function init()
   self.detectRange = config.getParameter("detectRange")
 
   object.setInteractive(config.getParameter("interactive" or true))
-  object.setAllOutputNodes(false)
   toggleActivation(storage.state)
   self.timer = 0
 end
@@ -50,8 +49,7 @@ function update(dt)
     else
       local playersFound = entitiesInRange()
       --Detonate only when there are no nearby players
-      if not playersFound then
-        object.setAllOutputNodes(true)
+      if playersFound then
         die()
         --Destroy object
         object.smash()

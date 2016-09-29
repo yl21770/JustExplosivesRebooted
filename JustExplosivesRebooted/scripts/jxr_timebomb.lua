@@ -29,14 +29,12 @@ function onInteraction()
 --Manual activation
   if not config.getParameter("inputNodes") or not object.isInputNodeConnected(0) then
     storage.state = not storage.state
-    --sb.logInfo("Inbound signal detected (Manual)! Bomb activated.")
     toggleActivation(storage.state)
   end
 end
 
 function toggleActivation(state)
 --Enables bomb state toggling (ON or OFF)
-  --object.setAllOutputNodes(state)
   if state then
     animator.setAnimationState("switchState", "on")
     self.start = true
@@ -53,8 +51,7 @@ function processWireInput()
     object.setInteractive(false)
     storage.state = object.getInputNodeLevel(0)
     toggleActivation(storage.state)
-    --sb.logInfo("Inbound signal detected (Wire)! Bomb activated.")
-  elseif self.interactive then
+  else
     object.setInteractive(true)
   end
 end
