@@ -11,7 +11,7 @@ function init()
 
   object.setInteractive(config.getParameter("interactive" or true))
   toggleActivation(storage.state)
-  self.timer = 0
+  self.timer = 6
 end
 
 function onInteraction()
@@ -27,6 +27,8 @@ end
 function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
+  else
+    animator.setAnimationState("switchState", "off")
   end
 end
 
@@ -54,8 +56,9 @@ function update(dt)
         --Destroy object
         object.smash()
       end
-      self.timer = 5
     end
+  else
+    self.timer = 6
   end
 end
 

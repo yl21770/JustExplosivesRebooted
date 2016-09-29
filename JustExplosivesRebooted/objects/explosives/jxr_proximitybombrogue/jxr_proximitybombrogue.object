@@ -39,9 +39,8 @@
   },
   "animationPosition" : [4, 4],
 
-  "firstProjectile" : "jxr_detonatorexplosion",
+  "firstProjectile" : "jxr_proximitybombexplosion",
 
-  "detectDuration" : 3,
   "detectEntityTypes" : ["creature"],
   "detectRange" : 5,
 
