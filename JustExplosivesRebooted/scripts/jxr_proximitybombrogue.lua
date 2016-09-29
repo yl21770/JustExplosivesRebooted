@@ -27,7 +27,6 @@ end
 function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
-    self.triggerTimer = config.getParameter("detectDuration")
   end
 end
 
@@ -36,7 +35,9 @@ function entitiesInRange()
   local count = 0
 
   local playerIDs = world.playerQuery(self.pos, self.detectRange)
-  count = count + #playerIDs
+  local npcIDs = world.npcQuery(self.pos, self.detectRange)
+  local monsterIDs = world.monsterQuery(self.pos, self.detectRange)
+  count = count + #playerIDs + #npcIDs + #monsterIDs
 
   return count > 0
 end
@@ -48,13 +49,12 @@ function update(dt)
       self.timer = self.timer - dt
     else
       local playersFound = entitiesInRange()
-      --Detonate only when there are no nearby players
       if playersFound then
         die()
         --Destroy object
         object.smash()
       end
-      self.timer = 0.4
+      self.timer = 5
     end
   end
 end
