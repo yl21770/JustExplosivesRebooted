@@ -43,7 +43,6 @@
 
   "firstProjectile" : "jxr_detonatorexplosion",
 
-  "detectDuration" : 3,
   "detectEntityTypes" : ["creature"],
   "detectRange" : 10,
 

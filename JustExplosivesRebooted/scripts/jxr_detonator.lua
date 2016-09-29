@@ -28,7 +28,6 @@ end
 function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
-    self.triggerTimer = config.getParameter("detectDuration")
   end
 end
 
