@@ -1,6 +1,7 @@
 [
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_bombcraftingtable" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_detonator" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_proximitybombsafe" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_proximitybombrogue" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_timebomb" } }
 ]

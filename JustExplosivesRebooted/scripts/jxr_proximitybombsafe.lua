@@ -35,10 +35,18 @@ end
 function entitiesInRange()
   local count = 0
 
-  local playerIDs = world.playerQuery(self.pos, self.detectRange)
   local npcIDs = world.npcQuery(self.pos, self.detectRange)
   local monsterIDs = world.monsterQuery(self.pos, self.detectRange)
-  count = count + #playerIDs + #npcIDs + #monsterIDs
+  count = count + #npcIDs + #monsterIDs
+
+  return count > 0
+end
+
+function playerInRange()
+  local count = 0
+
+  local playerIDs = world.playerQuery(self.pos, self.detectRange)
+  count = count + #playerIDs
 
   return count > 0
 end
@@ -49,8 +57,10 @@ function update(dt)
     if self.timer > 0 then
       self.timer = self.timer - dt
     else
-      local playersFound = entitiesInRange()
-      if playersFound then
+      local playersFound = playerInRange()
+      local entitiesFound = entitiesInRange()
+
+      if not playersFound and entitiesFound then
         die()
         --Destroy object
         object.smash()
