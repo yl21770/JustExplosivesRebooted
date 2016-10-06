@@ -18,6 +18,7 @@
   "glitchDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
   "humanDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
   "hylotlDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "novakidDescription" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
 
   "inventoryIcon" : "jxr_detonatoricon.png",
   "orientations" : [
@@ -26,7 +27,9 @@
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : ["bottom"],
+
+      "direction" : "right"
     }
   ],
 

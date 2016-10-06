@@ -1,25 +1,26 @@
 {
   "objectName" : "jxr_bombcraftingtable",
-  "colonyTags" : ["crafting"],
-  "rarity" : "Rare",
+  "colonyTags" : ["crafting", "combat"],
+  "rarity" : "Common",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/jxr_bombcraftingtable.config",
     "filter" : ["bombcraftingtable"]
   },
-  "description" : "A bomb crafting table. I wonder what will happen if I press this butto...",
-  "shortdescription" : "Bomb Crafting Table",
+  "description" : "A bomb crafting table. I wonder what will happen if I press this button...",
+  "shortdescription" : "^orange;Bomb Crafting Table^white;",
   "race" : "generic",
   "category" : "crafting",
   "printable" : false,
-  "price" : 0,
+  "price" : 50,
   
-  "apexDescription" : "A silent frog merchant. Unusual.",
-  "avianDescription" : "Who is this curious merchant?",
-  "floranDescription" : "Floran ssslightly ssscared by sssilent frog.",
-  "glitchDescription" : "Concerned. This frog seems unwilling to communicate.",
-  "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
-  "hylotlDescription" : "This silent creature is not one of us.",
+  "apexDescription" : "A crafting table for making explosives.",
+  "avianDescription" : "...",
+  "floranDescription" : "Floran hate explosionsss as much as fire.",
+  "glitchDescription" : "...",
+  "humanDescription" : "...",
+  "hylotlDescription" : "...",
+  "novakidDescription" : "I can make things that explode here?! Awesome!",
 
   "inventoryIcon" : "jxr_bombcraftingtableicon.png",
   "orientations" : [

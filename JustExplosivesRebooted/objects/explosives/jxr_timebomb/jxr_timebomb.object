@@ -18,6 +18,7 @@
   "glitchDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
   "humanDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
   "hylotlDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
+  "novakidDescription" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
 
   "inventoryIcon" : "jxr_timebombicon.png",
   "orientations" : [
@@ -26,7 +27,9 @@
       "imagePosition" : [1, 0],
 
       "spaceScan" : 0.1,
-      "anchors" : ["bottom"]
+      "anchors" : ["bottom"],
+
+      "direction" : "right"
     }
   ],
 
@@ -40,11 +43,9 @@
   "animationPosition" : [0, 0],
   
   "inputNodes" : [[1, 0]],
-  //"outputNodes" : [[0, 0]],
 
   "firstProjectile" : "jxr_timebombexplosion",
 
   "timeToExplode" : 6,
   "interactive" : true
-  //"detectArea" : [[-1.0, 0], [1.0, 0.5]]
 }

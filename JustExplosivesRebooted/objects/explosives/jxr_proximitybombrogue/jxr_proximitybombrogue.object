@@ -18,6 +18,7 @@
   "glitchDescription" : "Can be adhered to any surface - activates after a moment, then detonates when anything approaches. Be careful!",
   "humanDescription" : "Can be adhered to any surface - activates after a moment, then detonates when anything approaches. Be careful!",
   "hylotlDescription" : "Can be adhered to any surface - activates after a moment, then detonates when anything approaches. Be careful!",
+  "novakidDescription" : "Can be adhered to any surface - activates after a moment, then detonates when anything approaches. Be careful!",
 
   "inventoryIcon" : "jxr_proximitybombrogueicon.png",
   "orientations" : [
@@ -26,7 +27,9 @@
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
     }
   ],
 
@@ -44,5 +47,7 @@
   "detectEntityTypes" : ["creature"],
   "detectRange" : 5,
 
-  "interactive" : true
+  "interactive" : true,
+
+  "triggerSounds" : [ "/sfx/jxr_explosives/rocket_lockon.ogg"]
 }

@@ -1,0 +1,100 @@
+{
+  "objectName" : "jxr_wallpiercer",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+  "breakDropOptions" : [],
+
+  "category" : "wire",
+  "price" : 0,
+
+  "description" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "shortdescription" : "Wall Piercer",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "avianDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "floranDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "glitchDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "humanDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "hylotlDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+  "novakidDescription" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
+
+  "inventoryIcon" : "jxr_wallpiercericon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_wallpiercer.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wallpiercer.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wallpiercerfloor.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wallpiercerfloor.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+ 
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wallpiercerleft.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wallpiercerleft.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["left"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wallpiercerright.png:<color>.off",
+      "imagePosition" : [-1, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wallpiercerright.png"
+      },
+      "animationPosition" : [-1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["right"],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : ["/scripts/jxr_wallpiercer.lua"],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_wallpiercer.animation",
+  "animationParts" : {
+    "switch" : "jxr_wallpiercer.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inputNodes" : [[1, 0]],
+
+  "firstProjectile" : "jxr_wallpiercerexplosion",
+
+  "timeToExplode" : 6,
+  "interactive" : true
+}

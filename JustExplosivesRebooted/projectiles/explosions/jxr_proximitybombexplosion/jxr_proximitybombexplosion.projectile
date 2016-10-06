@@ -14,6 +14,7 @@
 
   "damageKind" : "default",
   "damageTeam" : { "type" : "indiscriminate" },
+  "power" : 75,
   "statusEffects" : [],
   "damagePoly" : [[-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24]],
   "knockback" : 30,

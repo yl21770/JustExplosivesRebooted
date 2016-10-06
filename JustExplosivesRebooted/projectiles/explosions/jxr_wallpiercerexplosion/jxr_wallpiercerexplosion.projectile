@@ -1,6 +1,6 @@
 {
-  "projectileName" : "jxr_detonatorexplosion",
-  "image" : "jxr_detonatorexplosion.png",
+  "projectileName" : "jxr_wallpiercerexplosion",
+  "image" : "jxr_wallpiercerexplosion.png",
   "animationCycle" : 0.25,
   "frameNumber" : 4,
   "speed" : 10,
@@ -16,12 +16,12 @@
   "damageTeam" : { "type" : "indiscriminate" },
   "power" : 10,
   "statusEffects" : [],
-  "damagePoly" : [[-12, 0], [-10, -10], [0, -12], [10, -10], [12, 0], [10, 10], [0, 12], [-10, 10]],
+  "damagePoly" : [[-6, 0], [-4, -10], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4]],
 
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/jxr_detonatorexplosion/jxr_detonatorexplosion.config"
+      "file" : "/projectiles/explosions/jxr_wallpiercerexplosion/jxr_wallpiercerexplosion.config"
     }
   ]
 }
