@@ -52,8 +52,6 @@ function update(dt)
       local playersFound = entitiesInRange()
       if playersFound then
         die()
-        --Destroy object
-        object.smash()
       end
     end
   else
@@ -62,8 +60,12 @@ function update(dt)
 end
 
 function die()
---Triggers other nearby explosives upon explosion
-  if config.getParameter("firstProjectile") ~= nil then
-    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
+  if storage.state then
+    if config.getParameter("firstProjectile") ~= nil then
+      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
+
+      --Destroy object
+      object.smash(true)
+    end
   end
 end

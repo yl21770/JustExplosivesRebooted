@@ -66,8 +66,6 @@ function update(dt)
         --Trigger explosion
         if self.timer <= 1 then
           die()
-          --Destroy object
-          object.smash()
         end
       end
     --Update Timer
@@ -77,34 +75,38 @@ function update(dt)
 end
 
 function die()
---Triggers other nearby explosives upon explosion
-  if config.getParameter("firstProjectile") ~= nil then
-    self.anchor = config.getParameter("anchors")[1]
-    
-    if self.anchor == "top" then
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 1}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 2}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 4}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 6}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 8}), entity.id())
-    elseif self.anchor == "bottom" then
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -1}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -2}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -4}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -6}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -8}), entity.id())
-    elseif self.anchor == "left" then
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-1, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-2, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-4, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-6, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-8, 0}), entity.id())
-    elseif self.anchor == "right" then
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({1, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({2, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({4, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({6, 0}), entity.id())
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({8, 0}), entity.id())
+  if storage.state then
+    if config.getParameter("firstProjectile") ~= nil then
+      self.anchor = config.getParameter("anchors")[1]
+      
+      if self.anchor == "top" then
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 1}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 2}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 4}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 6}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, 8}), entity.id())
+      elseif self.anchor == "bottom" then
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -1}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -2}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -4}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -6}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0, -8}), entity.id())
+      elseif self.anchor == "left" then
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-1, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-2, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-4, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-6, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({-8, 0}), entity.id())
+      elseif self.anchor == "right" then
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({1, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({2, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({4, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({6, 0}), entity.id())
+        world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({8, 0}), entity.id())
+      end
+
+      --Destroy object
+      object.smash(true)
     end
   end
 end

@@ -52,8 +52,6 @@ function update(dt)
       if not playersFound then
         object.setAllOutputNodes(true)
         die()
-        --Destroy object
-        object.smash()
       end
       self.timer = 0.4
     end
@@ -61,8 +59,12 @@ function update(dt)
 end
 
 function die()
---Triggers other nearby explosives upon explosion
-  if config.getParameter("firstProjectile") ~= nil then
-    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
+  if storage.state then
+    if config.getParameter("firstProjectile") ~= nil then
+      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
+
+      --Destroy object
+      object.smash(true)
+    end
   end
 end

@@ -3,7 +3,6 @@
   "colonyTags" : ["combat"],
   "printable" : false,
   "rarity" : "Common",
-  "breakDropOptions" : [],
 
   "category" : "wire",
   "price" : 0,
