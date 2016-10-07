@@ -1,0 +1,27 @@
+{
+  "projectileName" : "jxr_rockcrackerexplosion",
+  "image" : "jxr_rockcrackerexplosion.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "speed" : 10,
+
+  "lightColor" : [255, 227, 48],
+  "pointLight" : false,
+
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+
+  "damageKind" : "default",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "power" : 12,
+  "statusEffects" : [],
+  "damagePoly" : [[-10, 0], [-8, -8], [0, -10], [8, -8], [10, 0], [8, 8], [0, 10], [-8, 8]],
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/jxr_rockcrackerexplosion/jxr_rockcrackerexplosion.config"
+    }
+  ]
+}

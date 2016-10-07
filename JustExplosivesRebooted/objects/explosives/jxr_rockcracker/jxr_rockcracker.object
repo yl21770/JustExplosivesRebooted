@@ -1,0 +1,53 @@
+{
+  "objectName" : "jxr_rockcracker",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+  "breakDropOptions" : [],
+
+  "category" : "wire",
+  "price" : 0,
+
+  "description" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "shortdescription" : "RockCracker",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "avianDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "floranDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "glitchDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "humanDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "hylotlDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+  "novakidDescription" : "Sends an explosive pulse into the ground, splitting open a chasm.",
+
+  "inventoryIcon" : "jxr_rockcrackericon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_rockcracker.png:<color>.off",
+      "imagePosition" : [1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : ["/scripts/jxr_rockcracker.lua"],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_rockcracker.animation",
+  "animationParts" : {
+    "switch" : "jxr_rockcracker.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inputNodes" : [[1, 0]],
+
+  "firstProjectile" : "jxr_rockcrackerexplosion",
+
+  "timeToExplode" : 6,
+  "interactive" : true
+}
