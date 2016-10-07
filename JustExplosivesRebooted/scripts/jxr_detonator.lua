@@ -1,5 +1,5 @@
 function init()
---Prevent premature explosions
+  --Prevent premature explosions
   if storage.state == nil then
     storage.state = false
   end
@@ -17,12 +17,11 @@ end
 
 function onInteraction()
 --Manual activation
-  if storage.state then
-    storage.state = false
-  else
+  if storage.state == false then
     storage.state = true
   end
   toggleActivation(storage.state)
+  object.setInteractive(false)
 end
 
 function toggleActivation(state)
@@ -51,6 +50,7 @@ function update(dt)
       --Detonate only when there are no nearby players
       if not playersFound then
         object.setAllOutputNodes(true)
+        sb.logInfo("JXR::Output node status: " .. tostring(object.getOutputNodeLevel(0)))
         die()
       end
       self.timer = 0.4
