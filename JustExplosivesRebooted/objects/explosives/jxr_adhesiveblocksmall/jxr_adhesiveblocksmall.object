@@ -1,0 +1,50 @@
+{
+  "objectName" : "jxr_adhesiveblocksmall",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wired",
+  "price" : 0,
+
+   "description" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "shortdescription" : "Small Adhesive Block",
+  "race" : "generic",
+
+  "apexDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "avianDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "floranDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "glitchDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "humanDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "hylotlDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "novakidDescription" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+
+  "inventoryIcon" : "jxr_adhesiveblocksmallicon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_adhesiveblocksmall.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/scripts/jxr_adhesiveblocksmall.lua" ],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_adhesiveblocksmall.animation",
+  "animationParts" : {
+    "switch" : "jxr_adhesiveblocksmall.png"
+  },
+  "animationPosition" : [4, 4],
+
+  "inputNodes" : [[0, 0]],
+
+  "firstProjectile" : "jxr_timebombexplosion",
+
+  "timeToExplode" : 15,
+  "interactive" : true
+}
