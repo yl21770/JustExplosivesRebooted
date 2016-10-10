@@ -1,0 +1,113 @@
+{
+  "objectName" : "jxr_adhesivebomb",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "description" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "shortdescription" : "Adhesive Charge",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "avianDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "floranDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "glitchDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "humanDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "hylotlDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+  "novakidDescription" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
+
+  "inventoryIcon" : "jxr_adhesivebombicon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_adhesivebomb.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_adhesivebomb.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_adhesivebombfloor.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_adhesivebombfloor.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+ 
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_adhesivebombleft.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_adhesivebombleft.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["left"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_adhesivebombright.png:<color>.off",
+      "imagePosition" : [-1, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_adhesivebombright.png"
+      },
+      "animationPosition" : [-1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["right"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_adhesivebombwall.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_adhesivebombwall.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["background"],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : ["/scripts/jxr_adhesivebomb.lua"],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_adhesivebomb.animation",
+  "animationParts" : {
+    "switch" : "jxr_adhesivebombwall.png"
+  },
+  "animationPosition" : [0, 0],
+  
+  "inputNodes" : [[1, 0]],
+
+  "firstProjectile" : "jxr_timebombexplosion",
+
+  "timeToExplode" : 6,
+  "interactive" : true
+}

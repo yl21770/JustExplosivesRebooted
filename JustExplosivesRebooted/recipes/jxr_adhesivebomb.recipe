@@ -1,0 +1,7 @@
+{
+    //Adjust price for each item
+    "input": [],
+    "output": { "item": "jxr_adhesivebomb",
+    "count": 1 },
+    "groups": [ "bombcraftingtable", "objects", "all" ]
+}
