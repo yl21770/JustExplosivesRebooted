@@ -1,0 +1,28 @@
+{
+  "projectileName" : "jxr_adhesivebombexplosion",
+  "image" : "jxr_adhesivebombexplosion.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 12,
+  "speed" : 60,
+
+  "lightColor" : [255, 227, 48],
+  "pointLight" : false,
+
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+
+  "damageKind" : "default",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "power" : 120,
+  "statusEffects" : [],
+  "damagePoly" : [[-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24]],
+  "knockback" : 30,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/jxr_adhesivebombexplosion/jxr_adhesivebombexplosion.config"
+    }
+  ]
+}
