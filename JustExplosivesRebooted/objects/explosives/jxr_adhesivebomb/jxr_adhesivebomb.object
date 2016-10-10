@@ -106,7 +106,7 @@
   
   "inputNodes" : [[1, 0]],
 
-  "firstProjectile" : "jxr_timebombexplosion",
+  "firstProjectile" : "jxr_adhesivebombexplosion",
 
   "timeToExplode" : 6,
   "interactive" : true
