@@ -43,7 +43,6 @@
 
   "firstProjectile" : "jxr_proximitybombexplosion",
 
-  "detectEntityTypes" : ["creature"],
   "detectRange" : 5,
 
   "interactive" : true,

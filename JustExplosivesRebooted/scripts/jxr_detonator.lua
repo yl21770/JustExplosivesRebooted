@@ -1,5 +1,4 @@
 function init()
-  --Prevent premature explosions
   if storage.state == nil then
     storage.state = false
   end
@@ -10,13 +9,11 @@ function init()
 
   self.timer = 0
 
-  --object.setAllOutputNodes(false)
   toggleActivation(storage.state)
   object.setInteractive(config.getParameter("interactive" or true))
 end
 
 function onInteraction()
---Manual activation
   if not storage.state then
     storage.state = true
   end
@@ -31,7 +28,6 @@ function toggleActivation(state)
 end
 
 function entitiesInRange()
---Check if players are nearby
   local playerIDs = world.playerQuery(self.pos, self.detectRange)
 
   if #playerIDs > 0 then
@@ -42,13 +38,11 @@ function entitiesInRange()
 end
 
 function update(dt)
-  --If bomb is activated
   if storage.state then
     if self.timer > 0 then
       self.timer = self.timer - dt
     else
       local found = entitiesInRange()
-      --Detonate only when there are no nearby players
       if not found then
         object.setAllOutputNodes(true)
         die()
@@ -63,7 +57,6 @@ function die()
     if config.getParameter("firstProjectile") ~= nil then
       world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
 
-      --Destroy object
       object.smash(true)
     end
   end
