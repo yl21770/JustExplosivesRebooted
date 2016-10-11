@@ -1,21 +1,19 @@
 function init()
---Prevent premature explosions
   if storage.state == nil then
     storage.state = false
   end
 
-  self.detectEntityTypes = config.getParameter("detectEntityTypes")
   self.pos = entity.position()
   self.pos = {self.pos[1] + 0.5, self.pos[2] + 0.5}
   self.detectRange = config.getParameter("detectRange")
 
+  self.timer = 6
+
   object.setInteractive(config.getParameter("interactive" or true))
   toggleActivation(storage.state)
-  self.timer = 6
 end
 
 function onInteraction()
---Manual activation
   if storage.state then
     storage.state = false
   else
@@ -48,7 +46,11 @@ function playerInRange()
   local playerIDs = world.playerQuery(self.pos, self.detectRange)
   count = count + #playerIDs
 
-  return count > 0
+  if count > 0 then
+    return true
+  end
+  
+  return false
 end
 
 function update(dt)
@@ -74,7 +76,6 @@ function die()
     if config.getParameter("firstProjectile") ~= nil then
       world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
       
-      --Destroy object
       object.smash(true)
     end
   end

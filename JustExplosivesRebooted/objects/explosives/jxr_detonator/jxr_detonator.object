@@ -33,7 +33,7 @@
   ],
 
   "scripts" : [ "/scripts/jxr_detonator.lua" ],
-  "scriptDelta" : 5,
+  "scriptDelta" : 12,
   
   "animation" : "jxr_detonator.animation",
   "animationParts" : {
@@ -45,7 +45,6 @@
 
   "firstProjectile" : "jxr_detonatorexplosion",
 
-  "detectEntityTypes" : ["creature"],
   "detectRange" : 10,
 
   "interactive" : true
