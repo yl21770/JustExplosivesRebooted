@@ -24,12 +24,12 @@ end
 function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
-    self.start = true
   else
     animator.setAnimationState("switchState", "off")
-    self.start = false
     self.timer = config.getParameter("timeToExplode")
   end
+
+  self.start = state
 end
 
 function processWireInput()

@@ -32,12 +32,12 @@ end
 function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
-    self.start = true
   else
     animator.setAnimationState("switchState", "off")
-    self.start = false
     self.timer = config.getParameter("timeToExplode")
   end
+
+  self.start = state
 end
 
 function processWireInput()
@@ -51,13 +51,12 @@ function processWireInput()
 end
 
 function update(dt)
-  if storage.state then
-    if self.start then
-      if self.timer <= 1 then
-        die()
-      end
-    self.timer = self.timer - dt
+  if storage.state and self.start then
+    if self.timer <= 1 then
+      die()
+      object.smash(true)
     end
+  self.timer = self.timer - dt
   end
 end
 

@@ -61,11 +61,9 @@ function update(dt)
 end
 
 function die()
-  if storage.state then
-    if config.getParameter("firstProjectile") ~= nil then
-      world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
+  if storage.state and config.getParameter("firstProjectile") ~= nil then
+    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
 
-      object.smash(true)
-    end
+    object.smash(true)
   end
 end

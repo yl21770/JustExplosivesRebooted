@@ -32,12 +32,12 @@ end
 function toggleActivation(state)
   if state then
     animator.setAnimationState("switchState", "on")
-    self.start = true
   else
     animator.setAnimationState("switchState", "off")
-    self.start = false
     self.timer = config.getParameter("timeToExplode")
   end
+
+  self.start = state
 end
 
 function processWireInput()
@@ -51,21 +51,18 @@ function processWireInput()
 end
 
 function update(dt)
-  if self.start then
-    if storage.state then
-      if self.timer <= 1 then
-        die()
-        object.smash(true)
-      end
-    self.timer = self.timer - dt
+  if storage.state and self.start then
+    if self.timer <= 1 then
+      die()
     end
+  self.timer = self.timer - dt
   end
 end
 
 function die()
-  if storage.state then
-    if config.getParameter("firstProjectile") ~= nil then
+  if storage.state and config.getParameter("firstProjectile") ~= nil then
       world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({0.2, 1}), entity.id())
-    end
+
+      object.smash(true)
   end
 end

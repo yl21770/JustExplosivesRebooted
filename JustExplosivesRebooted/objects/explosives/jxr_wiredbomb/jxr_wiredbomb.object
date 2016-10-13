@@ -8,7 +8,7 @@
   "price" : 0,
 
   "description" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "shortdescription" : "Time Bomb",
+  "shortdescription" : "Wired Bomb",
   "race" : "generic",
 
   "apexDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
