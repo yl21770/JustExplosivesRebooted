@@ -7,5 +7,6 @@
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_proximitybombsafe" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_rockcracker" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_timebomb" } },
-    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_wallpiercer" } }
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_wallpiercer" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_wiredbomb" } }
 ]
