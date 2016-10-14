@@ -25,6 +25,67 @@
       "image" : "jxr_wiredbomb.png:<color>.off",
       "imagePosition" : [0, 0],
 
+      "animationParts" : {
+        "switch" : "jxr_wiredbomb.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["top"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wiredbombfloor.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wiredbombfloor.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wiredbombleft.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wiredbombleft.png"
+      },
+      "animationPosition" : [1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["left"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wiredbombright.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wiredbombright.png"
+      },
+      "animationPosition" : [-1, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["right"],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "jxr_wiredbombback.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "animationParts" : {
+        "switch" : "jxr_wiredbombback.png"
+      },
+      "animationPosition" : [0, 0],
+
       "spaceScan" : 0.1,
       "anchors" : ["background"],
 
