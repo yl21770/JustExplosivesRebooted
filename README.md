@@ -1,6 +1,5 @@
 # **Just Explosives!** v0.3
 ### Rebooted for *Starbound v1.0 +*. Original mod can be found [**here**](http://community.playstarbound.com/resources/just-explosives.1970/).
----
 
 ### **_How to install_**
 
@@ -12,11 +11,13 @@ Download the **.zip** file and extract the **_JustExplosivesRebooted_** folder t
 * Adhesive Charge `[jxr_adhesivebomb]`
 * Adhesive Block *(small)* `[jxr_adhesiveblocksmall]`
 * Detonator `[jxr_detonator]`
+* Liquid Container `[jxr_lavabarrel], [jxr_waterbarrel]`
 * Proximity Mine *(safe)*  `[jxr_proximitybombsafe]`
 * Proximity Mine *(rogue)*  `[jxr_proximitybombrogue]`
 * RockCracker `[jxr_rockcracker]`
 * Time Bomb `[jxr_timebomb]`
 * Wall Piercer `[jxr_wallpiercer]`
+* Wired Bomb `[jxr_wiredbomb]`
 
 ### **_Not yet available_**
 
@@ -25,5 +26,3 @@ Download the **.zip** file and extract the **_JustExplosivesRebooted_** folder t
 * ~~EarthRifter~~
 * ~~Gun Enplacement~~
 * ~~Explosive Barrel~~
-* ~~Liquid Container~~
-* ~~Wired Bomb~~
