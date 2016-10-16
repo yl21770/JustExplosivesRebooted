@@ -1,0 +1,60 @@
+{
+  "objectName" : "jxr_waterbarrel",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+
+  "description" : "For some reason, this fragile container is used for storage of water.",
+  "shortdescription" : "Water Barrel",
+  "race" : "generic",
+
+  "apexDescription" : "For some reason, this fragile container is used for storage of water.",
+  "avianDescription" : "For some reason, this fragile container is used for storage of water.",
+  "floranDescription" : "For some reason, this fragile container is used for storage of water.",
+  "glitchDescription" : "For some reason, this fragile container is used for storage of water.",
+  "humanDescription" : "For some reason, this fragile container is used for storage of water.",
+  "hylotlDescription" : "For some reason, this fragile container is used for storage of water.",
+  "novakidDescription" : "For some reason, this fragile container is used for storage of water.",
+
+  "lightColor" : [50, 50, 100],
+  "flickerPeriod" : 0.6,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "jxr_waterbarrelicon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_waterbarrel.png:<color>.1",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform",
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : ["/scripts/jxr_liquidbarrel.lua"],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_waterbarrel.animation",
+  "animationParts" : {
+    "switch" : "jxr_waterbarrel.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "smashable" : true,
+  "smashSounds" : ["/sfx/jxr_breakables/capsule_break1.ogg", "/sfx/jxr_breakables/capsule_break2.ogg", "/sfx/jxr_breakables/capsule_break3.ogg"],
+  "smashDropPool" : "smashMoney",
+  "breakDropPool" : "smashMoney",
+
+  "firstProjectile" : "jxr_liquidbarrelexplosion",
+  
+  "liquidType" : 1
+}

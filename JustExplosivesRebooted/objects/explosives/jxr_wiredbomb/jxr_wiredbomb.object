@@ -7,17 +7,17 @@
   "category" : "wire",
   "price" : 0,
 
-  "description" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
+  "description" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
   "shortdescription" : "Wired Bomb",
   "race" : "generic",
 
-  "apexDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "avianDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "floranDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "glitchDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "humanDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "hylotlDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
-  "novakidDescription" : "Can be adhered to any surface - only detonates when it recieves a signal from a wire.",
+  "apexDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
+  "avianDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
+  "floranDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
+  "glitchDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
+  "humanDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
+  "hylotlDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
+  "novakidDescription" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
 
   "inventoryIcon" : "jxr_wiredbombicon.png",
   "orientations" : [
