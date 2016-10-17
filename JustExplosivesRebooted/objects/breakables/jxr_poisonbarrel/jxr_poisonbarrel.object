@@ -1,0 +1,60 @@
+{
+  "objectName" : "jxr_poisonbarrel",
+  "colonyTags" : ["combat"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+
+  "description" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "shortdescription" : "Acid Container",
+  "race" : "generic",
+
+  "apexDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "avianDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "floranDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "glitchDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "humanDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "hylotlDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+  "novakidDescription" : "For some reason, this fragile container is used for storage of deadly acid.",
+
+  "lightColor" : [150, 255, 150],
+  "flickerPeriod" : 0.6,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "jxr_poisonbarrelicon.png",
+  "orientations" : [
+    {
+      "image" : "jxr_poisonbarrel.png:<color>.1",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "collision" : "platform",
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : ["/scripts/jxr_liquidbarrel.lua"],
+  "scriptDelta" : 5,
+  
+  "animation" : "jxr_poisonbarrel.animation",
+  "animationParts" : {
+    "switch" : "jxr_poisonbarrel.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "smashable" : true,
+  "smashSounds" : ["/sfx/jxr_breakables/capsule_break1.ogg", "/sfx/jxr_breakables/capsule_break2.ogg", "/sfx/jxr_breakables/capsule_break3.ogg"],
+  "smashDropPool" : "smashMoney",
+  "breakDropPool" : "smashMoney",
+
+  "firstProjectile" : "jxr_liquidbarrelexplosion",
+  
+  "liquidType" : 3
+}
