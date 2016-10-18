@@ -1,22 +1,18 @@
 {
   "projectileName" : "jxr_liquidbarrelexplosion",
   "image" : "jxr_liquidbarrelexplosion.png",
-  "animationCycle" : 0.25,
+  "animationCycle" : 0.5,
   "frameNumber" : 6,
-  "speed" : 60,
-
-  "lightColor" : [255, 227, 48],
-  "pointLight" : false,
+  "speed" : 20,
 
   "animationLoops" : false,
   "piercing" : true,
-  "flippable" : true,
+  "flippable" : false,
 
   "damageKind" : "default",
   "damageTeam" : { "type" : "indiscriminate" },
   "power" : 10,
   "statusEffects" : [],
-  "knockback" : 30,
 
   "actionOnReap" : [
     {
