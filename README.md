@@ -8,21 +8,18 @@ Download the **.zip** file and extract the **_JustExplosivesRebooted_** folder t
 ### **_Currently available explosives_**
 *In-game item names are enclosed in square brackets. Usage is `/spawnitem itemName`*
 
-* Adhesive Charge `[jxr_adhesivebomb]`
-* Adhesive Block *(small)* `[jxr_adhesiveblocksmall]`
-* Detonator `[jxr_detonator]`
-* Liquid Container `[jxr_lavabarrel], [jxr_waterbarrel]`
-* Proximity Mine *(safe)*  `[jxr_proximitybombsafe]`
-* Proximity Mine *(rogue)*  `[jxr_proximitybombrogue]`
-* RockCracker `[jxr_rockcracker]`
-* Time Bomb `[jxr_timebomb]`
-* Wall Piercer `[jxr_wallpiercer]`
-* Wired Bomb `[jxr_wiredbomb]`
-
-### **_Not yet available_**
-
-* ~~Adhesive Block *(large)*~~
-* ~~EightWay~~
-* ~~EarthRifter~~
-* ~~Gun Enplacement~~
-* ~~Explosive Barrel~~
+- [X] Adhesive Charge `[jxr_adhesivebomb]`
+- [X] Adhesive Block *(small)* `[jxr_adhesiveblocksmall]`
+- [X] Detonator `[jxr_detonator]`
+- [X] Liquid Container `[jxr_lavabarrel], [jxr_waterbarrel]`
+- [X] Proximity Mine *(safe)*  `[jxr_proximitybombsafe]`
+- [X] Proximity Mine *(rogue)*  `[jxr_proximitybombrogue]`
+- [X] RockCracker `[jxr_rockcracker]`
+- [X] Time Bomb `[jxr_timebomb]`
+- [X] Wall Piercer `[jxr_wallpiercer]`
+- [X] Wired Bomb `[jxr_wiredbomb]`
+- [ ] Adhesive Block *(large)*
+- [ ] EightWay
+- [ ] EarthRifter
+- [ ] Gun Enplacement
+- [ ] Explosive Barrel
