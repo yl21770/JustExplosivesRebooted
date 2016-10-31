@@ -1,14 +1,14 @@
 {
-  "objectName" : "jxr_waterbarrel",
+  "objectName" : "jxr_watertank",
   "colonyTags" : ["combat"],
   "printable" : false,
   "rarity" : "Common",
 
-  "category" : "decorative",
+  "category" : "breakable",
   "price" : 0,
 
   "description" : "For some reason, this fragile container is used for storage of water.",
-  "shortdescription" : "Water Barrel",
+  "shortdescription" : "Water Tank",
   "race" : "generic",
 
   "apexDescription" : "For some reason, this fragile container is used for storage of water.",
@@ -26,10 +26,10 @@
   "flickerPeriodVariance" : 0.075,
   "flickerIntensityVariance" : 0.025,
 
-  "inventoryIcon" : "jxr_waterbarrelicon.png",
+  "inventoryIcon" : "jxr_watertankicon.png",
   "orientations" : [
     {
-      "image" : "jxr_waterbarrel.png:<color>.1",
+      "image" : "jxr_watertank.png:<color>.1",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -40,12 +40,12 @@
     }
   ],
 
-  "scripts" : ["/scripts/jxr_liquidbarrel.lua"],
+  "scripts" : ["/scripts/jxr_liquidtank.lua"],
   "scriptDelta" : 5,
   
-  "animation" : "jxr_waterbarrel.animation",
+  "animation" : "jxr_watertank.animation",
   "animationParts" : {
-    "switch" : "jxr_waterbarrel.png"
+    "switch" : "jxr_watertank.png"
   },
   "animationPosition" : [0, 0],
 
@@ -54,7 +54,7 @@
   "smashDropPool" : "smashMoney",
   "breakDropPool" : "smashMoney",
 
-  "firstProjectile" : "jxr_liquidbarrelexplosion",
+  "firstProjectile" : "jxr_liquidtankexplosion",
   
   "liquidType" : 1
 }

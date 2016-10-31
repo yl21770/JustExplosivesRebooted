@@ -1,6 +1,6 @@
 {
-  "projectileName" : "jxr_liquidbarrelexplosion",
-  "image" : "jxr_liquidbarrelexplosion.png",
+  "projectileName" : "jxr_liquidtankexplosion",
+  "image" : "jxr_liquidtankexplosion.png",
   "animationCycle" : 0.5,
   "frameNumber" : 6,
   "speed" : 20,
@@ -17,7 +17,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/jxr_liquidbarrelexplosion/jxr_liquidbarrelexplosion.config"
+      "file" : "/projectiles/explosions/jxr_liquidtankexplosion/jxr_liquidtankexplosion.config"
     }
   ]
 }

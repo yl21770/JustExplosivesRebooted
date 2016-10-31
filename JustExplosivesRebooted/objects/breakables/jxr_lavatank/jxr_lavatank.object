@@ -1,5 +1,5 @@
 {
-  "objectName" : "jxr_lavabarrel",
+  "objectName" : "jxr_lavatank",
   "colonyTags" : ["combat"],
   "printable" : false,
   "rarity" : "Common",
@@ -8,7 +8,7 @@
   "price" : 0,
 
   "description" : "For some reason, this fragile container is used for storage of deadly lava.",
-  "shortdescription" : "Lava Barrel",
+  "shortdescription" : "Lava Tank",
   "race" : "generic",
 
   "apexDescription" : "For some reason, this fragile container is used for storage of deadly lava.",
@@ -26,10 +26,10 @@
   "flickerPeriodVariance" : 0.075,
   "flickerIntensityVariance" : 0.025,
 
-  "inventoryIcon" : "jxr_lavabarrelicon.png",
+  "inventoryIcon" : "jxr_lavatankicon.png",
   "orientations" : [
     {
-      "image" : "jxr_lavabarrel.png:<color>.1",
+      "image" : "jxr_lavatank.png:<color>.1",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -40,12 +40,12 @@
     }
   ],
 
-  "scripts" : ["/scripts/jxr_liquidbarrel.lua"],
+  "scripts" : ["/scripts/jxr_liquidtank.lua"],
   "scriptDelta" : 5,
   
-  "animation" : "jxr_lavabarrel.animation",
+  "animation" : "jxr_lavatank.animation",
   "animationParts" : {
-    "switch" : "jxr_lavabarrel.png"
+    "switch" : "jxr_lavatank.png"
   },
   "animationPosition" : [0, 0],
 
@@ -54,7 +54,7 @@
   "smashDropPool" : "smashMoney",
   "breakDropPool" : "smashMoney",
 
-  "firstProjectile" : "jxr_liquidbarrelexplosion",
+  "firstProjectile" : "jxr_liquidtankexplosion",
 
   "liquidType" : 2
 }

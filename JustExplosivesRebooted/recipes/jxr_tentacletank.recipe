@@ -1,7 +1,7 @@
 {
     //Adjust price for each item
     "input": [],
-    "output": { "item": "jxr_tarbarrel",
+    "output": { "item": "jxr_tentacletank",
     "count": 1 },
     "groups": [ "bombcraftingtable", "objects", "all" ]
 }

@@ -1,14 +1,14 @@
 {
-  "objectName" : "jxr_tarbarrel",
+  "objectName" : "jxr_tartank",
   "colonyTags" : ["combat"],
   "printable" : false,
   "rarity" : "Common",
 
-  "category" : "decorative",
+  "category" : "breakable",
   "price" : 0,
 
   "description" : "For some reason, this fragile container is used for storage of gooey tar.",
-  "shortdescription" : "Tar Barrel",
+  "shortdescription" : "Tar Tank",
   "race" : "generic",
 
   "apexDescription" : "For some reason, this fragile container is used for storage of gooey tar.",
@@ -26,10 +26,10 @@
   "flickerPeriodVariance" : 0.075,
   "flickerIntensityVariance" : 0.025,
 
-  "inventoryIcon" : "jxr_tarbarrelicon.png",
+  "inventoryIcon" : "jxr_tartankicon.png",
   "orientations" : [
     {
-      "image" : "jxr_tarbarrel.png:<color>.1",
+      "image" : "jxr_tartank.png:<color>.1",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -40,12 +40,12 @@
     }
   ],
 
-  "scripts" : ["/scripts/jxr_liquidbarrel.lua"],
+  "scripts" : ["/scripts/jxr_liquidtank.lua"],
   "scriptDelta" : 5,
   
-  "animation" : "jxr_tarbarrel.animation",
+  "animation" : "jxr_tartank.animation",
   "animationParts" : {
-    "switch" : "jxr_tarbarrel.png"
+    "switch" : "jxr_tartank.png"
   },
   "animationPosition" : [0, 0],
 
@@ -54,7 +54,7 @@
   "smashDropPool" : "smashMoney",
   "breakDropPool" : "smashMoney",
 
-  "firstProjectile" : "jxr_liquidbarrelexplosion",
+  "firstProjectile" : "jxr_liquidtankexplosion",
   
   "liquidType" : 5
 }
