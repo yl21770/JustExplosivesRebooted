@@ -11,7 +11,7 @@ Download the **.zip** file and extract the **_JustExplosivesRebooted_** folder t
 - [X] Adhesive Charge `[jxr_adhesivebomb]`
 - [X] Adhesive Block *(small)* `[jxr_adhesiveblocksmall]`
 - [X] Detonator `[jxr_detonator]`
-- [X] Liquid Container `[jxr_lavabarrel], [jxr_waterbarrel], [jxr_poisonbarrel], [jxr_tarbarrel], [jxr_tentaclebarrel]`
+- [X] Liquid Container `[jxr_lavatank], [jxr_watertank], [jxr_poisontank], [jxr_tartank], [jxr_tentacletank]`
 - [X] Proximity Mine *(safe)*  `[jxr_proximitybombsafe]`
 - [X] Proximity Mine *(rogue)*  `[jxr_proximitybombrogue]`
 - [X] RockCracker `[jxr_rockcracker]`
