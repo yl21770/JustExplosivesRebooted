@@ -1,7 +1,9 @@
 {
     //Adjust price for each item
-    "input": [],
-    "output": { "item": "jxr_poisontank",
-    "count": 1 },
-    "groups": [ "bombcraftingtable", "objects", "all" ]
+    "input" : [],
+    "output" : {
+        "item" : "jxr_poisontank",
+        "count" : 1
+    },
+    "groups" : [ "bombcraftingtable", "objects", "all" ]
 }
