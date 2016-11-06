@@ -5,5 +5,5 @@
         "item" : "jxr_adhesivebomb",
         "count" : 1
     },
-    "groups" : [ "bombcraftingtable", "objects", "all" ]
+    "groups" : [ "bombcraftingtable", "explosives", "all" ]
 }

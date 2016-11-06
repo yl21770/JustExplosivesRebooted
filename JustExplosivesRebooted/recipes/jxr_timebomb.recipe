@@ -5,5 +5,5 @@
         "item" : "jxr_timebomb",
         "count" : 1
     },
-    "groups" : [ "bombcraftingtable", "objects", "all" ]
+    "groups" : [ "bombcraftingtable", "explosives", "all" ]
 }
