@@ -2,10 +2,10 @@
   "objectName" : "jxr_wiredbomb",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 140,
 
   "description" : "Can be adhered to any surface - only detonates when it receives a signal from a wire.",
   "shortdescription" : "Wired Bomb",

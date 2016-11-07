@@ -1,0 +1,12 @@
+{
+    "input" : [
+        { "item" : "jxr_blastique", "count" : 1 },
+        { "item" : "ironbar", "count" : 1 }
+    ],
+    "output" : {
+        "item" : "jxr_blastingcap",
+        "count" : 5
+    },
+    "duration" : 3,
+    "groups" : [ "bombcraftingtable", "components", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "jxr_electronicsscrap",
+  "price" : 95,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "jxr_electronicsscrap.png",
+  "description" : "A mish-mash of discarded electronic components. Some of it may still be useful for crafting.",
+  "shortdescription" : "Electronics Scrap",
+  "itemTags" : [ "components" ]
+}

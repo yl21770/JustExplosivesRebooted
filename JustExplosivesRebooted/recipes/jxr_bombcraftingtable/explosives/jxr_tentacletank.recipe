@@ -1,0 +1,12 @@
+{
+    "input" : [
+        { "item" : "glass", "count" : 20 },
+        { "item" : "jxr_blastique", "count" : 1 },
+        { "item" : "liquidslime", "count" : 20 }
+    ],
+    "output" : {
+        "item" : "jxr_tentacletank",
+        "count" : 1
+    },
+    "groups" : [ "bombcraftingtable", "explosives", "all" ]
+}

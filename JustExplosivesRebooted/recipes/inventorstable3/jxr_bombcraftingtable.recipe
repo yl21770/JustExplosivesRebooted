@@ -1,7 +1,8 @@
 {
     "input" : [
-        { "item" : "ironbar", "count" : 10 },
-        { "item" : "siliconboard", "count" : 4 },
+        { "item" : "ironbar", "count" : 20 },
+        { "item" : "scorchedcore", "count" : 6 },
+        { "item" : "siliconboard", "count" : 2 },
         { "item" : "wire", "count" : 12 },
         { "item" : "battery", "count" : 2 }
     ],

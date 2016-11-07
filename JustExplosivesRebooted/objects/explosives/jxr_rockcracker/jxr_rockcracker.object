@@ -2,10 +2,10 @@
   "objectName" : "jxr_rockcracker",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 370,
 
   "description" : "Sends an explosive pulse into the ground, splitting open a chasm.",
   "shortdescription" : "RockCracker",

@@ -1,0 +1,10 @@
+{
+  "itemName" : "jxr_blastique",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "jxr_blastique.png",
+  "description" : "A clay-like substance extracted from Scorched Cores. A primary ingredient for crafting explosives.",
+  "shortdescription" : "Blastique",
+  "itemTags" : [ "components" ]
+}

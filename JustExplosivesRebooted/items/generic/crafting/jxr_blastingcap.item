@@ -1,0 +1,10 @@
+{
+  "itemName" : "jxr_blastingcap",
+  "price" : 15,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "jxr_blastingcap.png",
+  "description" : "A small explosive device used to trigger larger explosions.",
+  "shortdescription" : "Blasting Cap",
+  "itemTags" : [ "components" ]
+}

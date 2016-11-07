@@ -1,0 +1,11 @@
+{
+    "input" : [
+        { "item" : "siliconboard", "count" : 2 }
+    ],
+    "output" : {
+        "item" : "jxr_electronicsscrap",
+        "count" : 1
+    },
+    "duration" : 5,
+    "groups" : [ "bombcraftingtable", "components", "all" ]
+}

@@ -1,9 +1,0 @@
-{
-    //Adjust price for each item
-    "input" : [],
-    "output" : {
-        "item" : "jxr_detonator",
-        "count" : 1
-    },
-    "groups" : [ "bombcraftingtable", "explosives", "all" ]
-}

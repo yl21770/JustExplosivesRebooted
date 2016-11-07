@@ -1,0 +1,10 @@
+{
+  "itemName" : "jxr_emptyshell",
+  "price" : 75,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "jxr_emptyshell.png",
+  "description" : "A hollow metal container.",
+  "shortdescription" : "Empty Shell",
+  "itemTags" : [ "components" ]
+}

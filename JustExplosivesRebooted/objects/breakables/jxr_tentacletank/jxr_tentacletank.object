@@ -2,10 +2,10 @@
   "objectName" : "jxr_tentacletank",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "breakable",
-  "price" : 0,
+  "price" : 35,
 
   "description" : "For some reason, this fragile container is used for storage of a mysterious pink goo.",
   "shortdescription" : "Tentacle Tank",

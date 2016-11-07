@@ -2,12 +2,12 @@
   "objectName" : "jxr_adhesiveblocksmall",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wired",
-  "price" : 0,
+  "price" : 200,
 
-   "description" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
+  "description" : "Can be adhered to any surface - once activated, will explode in response to shock. Can be removed if deactivated.",
   "shortdescription" : "Small Adhesive Block",
   "race" : "generic",
 

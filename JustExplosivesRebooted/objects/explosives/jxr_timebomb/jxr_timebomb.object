@@ -2,10 +2,10 @@
   "objectName" : "jxr_timebomb",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 260,
 
   "description" : "Activating it starts a timer - can be turned off and picked up, but don't jostle it too much when it's active...",
   "shortdescription" : "Time Bomb",

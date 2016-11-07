@@ -1,0 +1,13 @@
+{
+    "input" : [
+        { "item" : "jxr_emptyshell", "count" : 2 },
+        { "item" : "jxr_blastique", "count" : 3 },
+        { "item" : "jxr_blastingcap", "count" : 1 },
+        { "item" : "jxr_timer", "count" : 1 }
+    ],
+    "output" : {
+        "item" : "jxr_timebomb",
+        "count" : 2
+    },
+    "groups" : [ "bombcraftingtable", "explosives", "all" ]
+}

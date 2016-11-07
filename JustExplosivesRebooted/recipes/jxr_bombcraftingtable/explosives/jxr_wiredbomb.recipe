@@ -1,0 +1,15 @@
+{
+    "input" : [
+        { "item" : "jxr_emptyshell", "count" : 3 },
+        { "item" : "jxr_blastique", "count" : 5 },
+        { "item" : "jxr_blastingcap", "count" : 1 },
+        { "item" : "jxr_electronicsscrap", "count" : 2 },
+        { "item" : "wire", "count" : 10 },
+        { "item" : "greenslime", "count" : 2 }
+    ],
+    "output" : {
+        "item" : "jxr_wiredbomb",
+        "count" : 5
+    },
+    "groups" : [ "bombcraftingtable", "explosives", "all" ]
+}

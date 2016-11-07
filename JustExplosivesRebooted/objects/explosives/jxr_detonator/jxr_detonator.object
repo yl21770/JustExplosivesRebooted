@@ -2,12 +2,12 @@
   "objectName" : "jxr_detonator",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 150,
 
-   "description" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
+  "description" : "This detonator can be used to set off explosives at a safe distance - once activated, the charge will detonate only after you clear the area.",
   "shortdescription" : "Safety Detonator",
   "race" : "generic",
 

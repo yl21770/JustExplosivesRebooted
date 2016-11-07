@@ -1,0 +1,13 @@
+{
+    "input" : [
+        { "item" : "jxr_electronicsscrap", "count" : 2 },
+        { "item" : "glass", "count" : 2 },
+        { "item" : "wire", "count" : 1 }
+    ],
+    "output" : {
+        "item" : "jxr_timer",
+        "count" : 2
+    },
+    "duration" : 5,
+    "groups" : [ "bombcraftingtable", "components", "all" ]
+}

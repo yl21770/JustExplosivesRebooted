@@ -1,0 +1,14 @@
+{
+    "input" : [
+        { "item" : "siliconboard", "count" : 2 },
+        { "item" : "jxr_electronicsscrap", "count" : 1 },
+        { "item" : "stickofram", "count" : 1 },
+        { "item" : "wire", "count" : 1 }
+    ],
+    "output" : {
+        "item" : "jxr_proximitysensor",
+        "count" : 2
+    },
+    "duration" : 5,
+    "groups" : [ "bombcraftingtable", "components", "all" ]
+}

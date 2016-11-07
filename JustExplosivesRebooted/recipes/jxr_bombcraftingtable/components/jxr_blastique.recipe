@@ -1,0 +1,11 @@
+{
+    "input" : [
+        { "item" : "scorchedcore", "count" : 1 }
+    ],
+    "output" : {
+        "item" : "jxr_blastique",
+        "count" : 2
+    },
+    "duration" : 5,
+    "groups" : [ "bombcraftingtable", "components", "all" ]
+}

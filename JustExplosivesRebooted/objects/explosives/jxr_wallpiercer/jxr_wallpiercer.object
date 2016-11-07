@@ -2,10 +2,10 @@
   "objectName" : "jxr_wallpiercer",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 225,
 
   "description" : "Can be adhered to any wall - pierces a narrow path through even the toughest material.",
   "shortdescription" : "Wall Piercer",

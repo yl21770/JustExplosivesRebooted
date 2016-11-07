@@ -2,12 +2,12 @@
   "objectName" : "jxr_proximitybombsafe",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 155,
 
-   "description" : "Can be adhered to any surface - activates after a moment, then detonates when anything approaches. Be careful!",
+  "description" : "Can be adhered to any surface - activates after a moment, then detonates when anything approaches. Be careful!",
   "shortdescription" : "Safe Proximity Mine",
   "race" : "generic",
 

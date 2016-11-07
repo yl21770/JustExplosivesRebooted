@@ -13,5 +13,11 @@
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_timebomb" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_wallpiercer" } },
     { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_watertank" } },
-    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_wiredbomb" } }
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_wiredbomb" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_blastingcap" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_blastique" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_electronicsscrap" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_emptyshell" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_proximitysensor" } },
+    { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "jxr_timer" } }
 ]

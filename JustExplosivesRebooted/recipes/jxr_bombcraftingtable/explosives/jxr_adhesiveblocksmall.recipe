@@ -1,0 +1,14 @@
+{
+    "input" : [
+        { "item" : "jxr_emptyshell", "count" : 2 },
+        { "item" : "jxr_blastique", "count" : 4 },
+        { "item" : "jxr_blastingcap", "count" : 2 },
+        { "item" : "jxr_timer", "count" : 3 },
+        { "item" : "greenslime", "count" : 8 }
+    ],
+    "output" : {
+        "item" : "jxr_adhesiveblocksmall",
+        "count" : 5
+    },
+    "groups" : [ "bombcraftingtable", "explosives", "all" ]
+}

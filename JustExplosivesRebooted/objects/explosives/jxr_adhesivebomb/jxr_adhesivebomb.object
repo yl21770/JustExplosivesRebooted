@@ -2,10 +2,10 @@
   "objectName" : "jxr_adhesivebomb",
   "colonyTags" : ["combat"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "category" : "wire",
-  "price" : 0,
+  "price" : 190,
 
   "description" : "Can be adhered to any surface - deals high damage to a small area. Perfect for breaching.",
   "shortdescription" : "Adhesive Charge",
