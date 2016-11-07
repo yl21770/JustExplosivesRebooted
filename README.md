@@ -1,9 +1,13 @@
-# **Just Explosives!** v0.3
+# **Just Explosives!** v1.0
 ### Rebooted for *Starbound v1.0 +*. Original mod can be found [**here**](http://community.playstarbound.com/resources/just-explosives.1970/).
 
 ### **_How to install_**
 
 Download the **.zip** file and extract the **_JustExplosivesRebooted_** folder to your Starbound mods folder. Read the [installation guide](http://community.playstarbound.com/threads/installing-mods-for-starbound-1-0.118081/) for additional help.
+
+### **_Bugs?!_**
+
+File an issue [**here**](https://github.com/jd-x/JustExplosivesRebooted/issues/new) or [**comment in the discussion page**](http://community.playstarbound.com/threads/justexplosives-rebooted.125826/). Be sure to attach your **log file** (_found in your Starbound directory_, `Starbound/storage/starbound.log`), squishing bugs aren't fun without anything to work with.
 
 ### **_Currently available explosives_**
 *In-game item names are enclosed in square brackets. Usage is `/spawnitem itemName`*
