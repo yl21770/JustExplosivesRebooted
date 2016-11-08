@@ -1,7 +1,7 @@
 {
   "objectName" : "jxr_bombcraftingtable",
   "colonyTags" : ["crafting", "combat"],
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/jxr_bombcraftingtable.config",
@@ -12,27 +12,44 @@
   "race" : "generic",
   "category" : "crafting",
   "printable" : false,
-  "price" : 50,
+  "price" : 3000,
   
   "apexDescription" : "A crafting table for making explosives.",
   "avianDescription" : "...",
-  "floranDescription" : "Floran hate explosionsss as much as fire.",
+  "floranDescription" : "Floran hate explosionsss as much asss fire.",
   "glitchDescription" : "...",
   "humanDescription" : "...",
   "hylotlDescription" : "...",
   "novakidDescription" : "I can make things that explode here?! Awesome!",
 
   "inventoryIcon" : "jxr_bombcraftingtableicon.png",
+  "placementImage" : "jxr_bombcraftingtable.png:default.1",
+  "placementImagePosition" : [-16, -1],
+
   "orientations" : [
     {
-      "dualImage" : "jxr_bombcraftingtable.png:<color>",
-
+      "image" : "jxr_bombcraftingtable.png:<color>.1",
       "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+
+      "direction" : "left",
+      "flipImages" : true,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "jxr_bombcraftingtable.png:<color>.1",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
     }
-  ]
+  ],
+  "animation" : "jxr_bombcraftingtable.animation",
+  "animationParts" : {
+    "switch" : "jxr_bombcraftingtable.png"
+  },
+  "animationPosition" : [0, 12]
 }
