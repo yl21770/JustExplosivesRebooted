@@ -9,19 +9,23 @@ Download the **.zip** file and extract the **_JustExplosivesRebooted_** folder t
 
 File an issue [**here**](https://github.com/jd-x/JustExplosivesRebooted/issues/new) or [**comment in the discussion page**](http://community.playstarbound.com/threads/justexplosives-rebooted.125826/). Be sure to attach your **log file** (_found in your Starbound directory_, `Starbound/storage/starbound.log`), squishing bugs aren't fun without anything to work with.
 
-### **_Currently available explosives_**
+### **_Currently available items_**
 *In-game item names are enclosed in square brackets. Usage is `/spawnitem itemName`*
 
-- [X] Adhesive Charge `[jxr_adhesivebomb]`
-- [X] Adhesive Block *(small)* `[jxr_adhesiveblocksmall]`
-- [X] Detonator `[jxr_detonator]`
-- [X] Liquid Container `[jxr_lavatank], [jxr_watertank], [jxr_poisontank], [jxr_tartank], [jxr_tentacletank]`
-- [X] Proximity Mine *(safe)*  `[jxr_proximitybombsafe]`
-- [X] Proximity Mine *(rogue)*  `[jxr_proximitybombrogue]`
-- [X] RockCracker `[jxr_rockcracker]`
-- [X] Time Bomb `[jxr_timebomb]`
-- [X] Wall Piercer `[jxr_wallpiercer]`
-- [X] Wired Bomb `[jxr_wiredbomb]`
+###### **_Crafting Table_**
+- [X] Bomb Crafting Table `[jxr_bombcraftingtable]` ![Bomb Crafting Table](http://i.imgur.com/3N6G3eU.gif)
+
+###### **_Explosives_**
+- [X] Adhesive Charge `[jxr_adhesivebomb]` ![Adhesive Charge (floor)](http://i.imgur.com/C75dEBd.gif)
+- [X] Adhesive Block *(small)* `[jxr_adhesiveblocksmall]` ![Adhesive Block (wall)](http://i.imgur.com/yBjdEan.gif)
+- [X] Detonator `[jxr_detonator]` ![Detonator](http://i.imgur.com/nif4TST.gif)
+- [X] Liquid Tanks `[jxr_lavatank], [jxr_watertank], [jxr_poisontank], [jxr_tartank], [jxr_tentacletank]` ![Lava Tank](http://i.imgur.com/aOha3mX.gif) ![Water Tank](http://i.imgur.com/QyQOkaO.gif) ![Poison Tank](http://i.imgur.com/jZNiXi8.gif) ![Tar Tank](http://i.imgur.com/r9UavrA.gif) ![Tentacle Tank](http://i.imgur.com/hc4xf5k.gif)
+- [X] Proximity Mine *(safe)*  `[jxr_proximitybombsafe]` ![Proximity Mine (safe)](http://i.imgur.com/lstBbfA.gif)
+- [X] Proximity Mine *(rogue)*  `[jxr_proximitybombrogue]` ![Proximity Mine (rogue)](http://i.imgur.com/ITM15eH.gif)
+- [X] RockCracker `[jxr_rockcracker]` ![RockCracker](http://i.imgur.com/op7jid3.gif)
+- [X] Time Bomb `[jxr_timebomb]` ![Time Bomb](http://i.imgur.com/MzSjbmf.gif)
+- [X] Wall Piercer `[jxr_wallpiercer]` ![Wall Piercer (floor)](http://i.imgur.com/H3hNRpr.gif)
+- [X] Wired Bomb `[jxr_wiredbomb]` ![Wired Bomb (wall)](http://i.imgur.com/Kqg6XRQ.gif)
 - [ ] Adhesive Block *(large)*
 - [ ] EightWay
 - [ ] EarthRifter
